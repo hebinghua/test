@@ -5,6 +5,14 @@
         <package android:name="com.shopeepay.id" />
         <package android:name="ovo.id" />
         <package android:name="id.dana" />
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="image/*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:mimeType="image/*" />
+        </intent>
     </queries>
     <application android:allowBackup="true" android:label="Payment Launcher Demo" android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" android:exported="true">
