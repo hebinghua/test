@@ -1,4 +1,2 @@
-hello readme.md
-add by 0519
-
-i am updata in github.com
+# PaymentLauncherDemo
+Android demo: select an image, open a custom wallet chooser, then launch GoPay, ShopeePay, OVO, or DANA.
